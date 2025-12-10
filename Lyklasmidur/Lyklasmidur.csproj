@@ -7,5 +7,11 @@
   <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
   <SelfContained>true</SelfContained>
+  <UserSecretsId>cbbe6c3f-2262-4b3a-a40d-a2e9a154d04a</UserSecretsId>
+  <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  <DockerfileContext>.</DockerfileContext>
 </PropertyGroup>
+<ItemGroup>
+  <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.23.0" />
+</ItemGroup>
 </Project>
